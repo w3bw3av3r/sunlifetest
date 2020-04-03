@@ -1,0 +1,145 @@
+:host {
+	ion-badge {
+		font-size: 8px;
+		font-weight: normal;
+		left: 24px;
+		position: absolute;
+		top: 8px;
+	}
+
+	ion-segment-button {
+		--color-checked: #0d2858;
+		--indicator-color: transparent !important;
+		--indicator-color-checked: transparent !important;
+		--background-checked: linear-gradient(
+			0deg,
+			rgba(255, 196, 9, 1) 10%,
+			rgba(255, 196, 9, 0.6839110644257703) 35%,
+			rgba(255, 196, 9, 0.2637429971988795) 100%
+		);
+	}
+
+	ion-icon {
+		font-size: 48px;
+	}
+
+	ion-segment ion-label {
+		font-size: 12px;
+		line-height: 16px;
+		text-transform: capitalize;
+	}
+
+	.dashboard-subheader {
+		background-color: #ffc409;
+		position: relative;
+
+		ion-avatar {
+			display: flex;
+			height: 48px;
+			margin: 0 auto;
+			width: 48px;
+
+			img {
+				margin: 0 auto;
+			}
+		}
+
+		.user-info-text {
+			color: white;
+		}
+
+		.user-greeting {
+			font-family: cursive;
+			font-size: 22px;
+			margin: 6px 0 0;
+		}
+
+		.user-fullname {
+			font-size: 26px;
+			font-weight: 900;
+			margin: 0 0 18px;
+		}
+
+		.dashboard-menu-segment {
+			--background: rgb(255, 196, 9);
+			--background: linear-gradient(
+				0deg,
+				rgba(255, 196, 9, 1) 10%,
+				rgba(255, 196, 9, 0.6839110644257703) 35%,
+				rgba(255, 196, 9, 0.2637429971988795) 100%
+			);
+
+			ion-icon {
+				margin-bottom: 2px;
+			}
+		}
+	}
+
+	.dashboard-container {
+		.container {
+			margin-top: 200px;
+		}
+	}
+
+	.dashboard-item-h1 {
+		font-size: 24px;
+	}
+
+	.plans-container {
+		ion-icon {
+			margin-bottom: 4px;
+		}
+
+		p {
+			font-size: 12px;
+			margin: 4px 0 0;
+		}
+
+		.life-plan {
+			color: #da1f46;
+		}
+
+		.critical-illness-plan {
+			color: #003946;
+		}
+
+		.med-hosp-plan {
+			color: #00b4bd;
+		}
+
+		.accident-plan {
+			color: #ffcc05;
+		}
+
+		ion-label {
+			font-weight: 600;
+		}
+	}
+
+	.coverages-note {
+		color: #8e8e8e;
+		font-size: 12px;
+	}
+
+	.dashboard-sub-footer-content {
+		box-shadow: 1px -1px 19px -4px rgba(0, 0, 0, 0.25);
+		border-radius: 18px 18px 0 0;
+	}
+
+	.policy-list-header {
+		color: gray;
+		font-size: 14px;
+	}
+
+	.policy-list-item {
+		color: #0d2858;
+		font-size: 18px;
+		font-weight: 500;
+		padding-left: 45px;
+	}
+
+	.list-header-icon ion-icon {
+		font-size: 26px;
+		margin-right: 18px;
+	}
+}

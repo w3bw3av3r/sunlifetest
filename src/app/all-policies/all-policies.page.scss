@@ -1,0 +1,45 @@
+:host {
+	ion-content {
+		--background: #eee;
+	}
+
+	ion-item {
+		--padding-start: 0;
+		--inner-padding-end: 0;
+		--min-height: 20px;
+
+		ion-label {
+			color: #0c0c33;
+			margin: 2px 0;
+		}
+	}
+
+	ion-card {
+		--background: #fff;
+		margin-bottom: 0;
+
+		ion-footer ion-toolbar {
+			--min-height: 20px;
+		}
+	}
+
+	ion-card-title {
+		color: #0e4965;
+		font-weight: 600;
+	}
+
+	ion-card-header {
+		ion-label {
+			font-size: 14px;
+		}
+	}
+
+	ion-card-content {
+		font-size: 14px;
+	}
+
+	.coverages-note {
+		color: #8e8e8e;
+		font-size: 12px;
+	}
+}
