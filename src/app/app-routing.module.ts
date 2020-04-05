@@ -10,14 +10,15 @@ const routes: Routes = [
 	{
 		path: 'dashboard',
 		loadChildren: () =>
-			import('./dashboard/dashboard/dashboard.module').then(
-				m => m.DashboardPageModule
-			)
+			import('./dashboard/dashboard.module').then(m => m.DashboardPageModule)
 	},
-  {
-    path: 'all-policies',
-    loadChildren: () => import('./all-policies/all-policies.module').then( m => m.AllPoliciesPageModule)
-  }
+	{
+		path: 'all-policies',
+		loadChildren: () =>
+			import('./all-policies/all-policies.module').then(
+				m => m.AllPoliciesPageModule
+			)
+	}
 ];
 
 @NgModule({
