@@ -8,10 +8,15 @@ import { DashboardPageRoutingModule } from './dashboard-routing.module';
 
 import { DashboardPage } from './dashboard.page';
 import { InsurancePoliciesComponent } from './insurance-policies/insurance-policies.component';
+import { PolicyServingComponent } from './policy-serving/policy-serving.component';
 
 @NgModule({
 	imports: [CommonModule, FormsModule, IonicModule, DashboardPageRoutingModule],
-	declarations: [DashboardPage, InsurancePoliciesComponent],
+	declarations: [
+		DashboardPage,
+		InsurancePoliciesComponent,
+		PolicyServingComponent
+	],
 	schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class DashboardPageModule {}
