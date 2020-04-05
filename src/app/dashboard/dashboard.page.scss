@@ -19,10 +19,6 @@
 		);
 	}
 
-	ion-icon {
-		font-size: 48px;
-	}
-
 	ion-segment ion-label {
 		font-size: 12px;
 		line-height: 16px;
@@ -79,51 +75,6 @@
 		.container {
 			margin-top: 200px;
 		}
-	}
-
-	.dashboard-item-h1 {
-		font-size: 24px;
-	}
-
-	.plans-container {
-		ion-icon {
-			margin-bottom: 4px;
-		}
-
-		p {
-			font-size: 12px;
-			margin: 4px 0 0;
-		}
-
-		.life-plan {
-			color: #da1f46;
-		}
-
-		.critical-illness-plan {
-			color: #003946;
-		}
-
-		.med-hosp-plan {
-			color: #00b4bd;
-		}
-
-		.accident-plan {
-			color: #ffcc05;
-		}
-
-		ion-label {
-			font-weight: 600;
-		}
-	}
-
-	.coverages-note {
-		color: #8e8e8e;
-		font-size: 12px;
-	}
-
-	.dashboard-sub-footer-content {
-		box-shadow: 1px -1px 19px -4px rgba(0, 0, 0, 0.25);
-		border-radius: 18px 18px 0 0;
 	}
 
 	.policy-list-header {
