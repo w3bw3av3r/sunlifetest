@@ -15,8 +15,8 @@ import { PolicyServingComponent } from './policy-serving/policy-serving.componen
 	declarations: [
 		DashboardPage,
 		InsurancePoliciesComponent,
-		PolicyServingComponent
+		PolicyServingComponent,
 	],
-	schemas: [CUSTOM_ELEMENTS_SCHEMA]
+	schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class DashboardPageModule {}

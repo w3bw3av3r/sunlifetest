@@ -4,16 +4,16 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Injectable({
-	providedIn: 'root'
+	providedIn: 'root',
 })
 export class PoliciesService {
-	private endpoint = '../assets/data/data-db.json';
+	endpoint = '../assets/data/data-db.json';
 
 	constructor(private http: HttpClient) {}
 
 	getAllPolicies(): Observable<any> {
 		return this.http.get(this.endpoint).pipe(
-			map(res => {
+			map((res) => {
 				console.log(res);
 				return res;
 			})
